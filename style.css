@@ -20,6 +20,10 @@ nav ul {
     padding: 0;
 }
 
+.topmenu li:hover {
+    background-color:#974b4b
+}
+
 .topmenu > li {
     display: inline-block;
     position: relative;
@@ -40,10 +44,6 @@ nav ul {
     margin-left: 10px;
 }
 
-.active:hover {
-    background-color:#974b4b
-}
-
 .submenu {
     position: absolute;
     z-index: 5;
@@ -60,7 +60,6 @@ nav ul {
 }
 
 .submenu a {
-    background: rgb(236, 213, 249);
     border-top: 1px solid #476166;
     border-right: 1px solid #476166;
     border-left: 1px solid #476166;
